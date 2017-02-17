@@ -9,7 +9,7 @@ class GUI(tk.Tk):
 
     def __init__(self):
         tk.Tk.__init__(self)
-        self.title('Walabot Treasure Hunt')  # window title
+        self.title('Walabot SeeThroughDemo')  # window title
         self.option_add("*Font", "TkFixedFont")  # default monospace font
         self.mainFrame = MainFrame(self)  # init window conponents
         self.mainFrame.pack()
